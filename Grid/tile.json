@@ -1,0 +1,8 @@
+{
+    "title": "Grid",
+    "folder": "Grid",
+    "description": "Mit CSS Grid erzeugt ihr Gestaltungsraster, indem Zeilen und Spalten für einen Bereich definiert werden. Elemente werden dann den Rasterzellen zugewiesen, wodurch sehr interessante Layouts möglich sind.",
+    "tags": ["CSS", "Layout", "Websites"],
+    "author": "Lea Haferbier",
+    "github": "https://github.com/LeaHaferbier/Grid.git"
+    }

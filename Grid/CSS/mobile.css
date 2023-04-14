@@ -1,0 +1,200 @@
+@media screen and (max-width: 768px) {
+    #wrapper {
+        width: windowwidth;
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: 150px 400px 280px 185px 160px 310px 80px 140px 310px 150px 170px 310px 60px 60px;
+        grid-template-areas:
+            "kopfzeile"
+            "quick-def"
+            "grundlegendes"
+            "text1"
+            "code1"
+            "bild1"
+            "text2"
+            "code2"
+            "bild2"
+            "text3"
+            "code3"
+            "bild3"
+            "text4"
+            "footer";
+    }
+
+    header {
+        grid-area: kopfzeile;
+        padding-left: 30px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: small;
+        
+    }
+
+    #logo {
+        font-weight: bold;
+        font-size: small;
+        color: #006268;
+        text-transform: uppercase;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-item a {
+        padding: 2px 5px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #quick-def {
+        background-color: #006268;
+        grid-area: quick-def;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        letter-spacing: 3px;
+        font-size: medium;
+    }
+
+    #quick-def h3 {
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+        font-weight: normal;
+        font-size: 15px;
+    }
+
+    #grundlegendes {
+        grid-area: grundlegendes;
+        background-color: white;
+    }
+
+    #section-intro1 {
+        grid-area: text1;
+        background-color: #e0d9d1;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    article h2 {
+        color: #006268;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #code1 {
+        grid-area: code1;
+        color: #006268;
+        font-family: RedHatMono;
+        font-weight: normal;
+        font-size: medium;
+        max-width: 512px;
+        align-self: center;
+    }
+
+    #bild1{
+        grid-area: bild1;
+        max-width: 400px;
+    }
+
+    #section-intro2 {
+        grid-area: text2;
+        background-color: #e0d9d1;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    #code2 {
+        grid-area: code2;
+        color: #006268;
+        font-family: RedHatMono;
+        font-weight: normal;
+        font-size: medium;
+        max-width: 512px;
+        align-self: center;
+    }
+
+    #bild2{
+        grid-area: bild2;
+        max-width: 400px;
+    }
+
+    #section-intro3 {
+        grid-area: text3;
+        background-color: #e0d9d1;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    #code3 {
+        grid-area: code3;
+        color: #006268;
+        font-family: RedHatMono;
+        font-weight: normal;
+        font-size: medium;
+        max-width: 512px;
+        align-self: center;
+    }
+
+    #bild3{
+        grid-area: bild3;
+        max-width: 400px;
+    }
+
+    
+    #section-intro4 {
+        grid-area: text4;
+        background-color: #e0d9d1;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    footer {
+        background-color: #006268;
+        padding-left: 30px;
+        padding-right: 10px;
+        font-size: small;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        grid-area: footer;
+    }
+
+    #logo2 {
+        display: inline-block;
+        font-weight: bold;
+        font-size: medium;
+        color: #e0d9d1;
+        text-transform: uppercase;
+    }
+
+    .footer-links {
+        list-style: none;
+        display: flex;
+    }
+
+    .footer-item {
+        display: inline-block;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: white;
+    }
+
+
+}

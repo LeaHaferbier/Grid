@@ -1,0 +1,190 @@
+ #wrapper {
+        width: windowwidth;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 150px 580px 280px 100px 390px 55px 390px 85px 390px 55px 100px;
+        grid-template-areas:
+            "kopfzeile kopfzeile kopfzeile kopfzeile kopfzeile kopfzeile"
+            "quick-def quick-def quick-def quick-def quick-def quick-def"
+            "grundlegendes grundlegendes grundlegendes grundlegendes grundlegendes grundlegendes"
+            "text1 text1 text1 text1 text1 text1"
+            "leer1 code1 code1 bild1 bild1 leer2"
+            "text2 text2 text2 text2 text2 text2"
+            "leer3 code2 code2 bild2 bild2 leer4"
+            "text3 text3 text3 text3 text3 text3"
+            "leer5 code3 code3 bild3 bild3 leer6"
+            "text4 text4 text4 text4 text4 text4"
+            "footer footer footer footer footer footer";
+    }
+
+    header {
+        grid-area: kopfzeile;
+        padding-left: 30px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    #logo {
+        display: inline-block;
+        font-weight: bold;
+        font-size: xx-large;
+        color: #006268;
+        text-transform: uppercase;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-item a {
+        display: inline-block;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #quick-def {
+        background-color: #006268;
+        grid-area: quick-def;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        margin-top: 75px;
+        letter-spacing: 3px;
+    }
+
+    #quick-def h3 {
+        color: white;
+        padding-left: 200px;
+        padding-right: 200px;
+        text-align: left;
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    #grundlegendes {
+        grid-area: grundlegendes;
+        background-color: white;
+    }
+
+    #section-intro1 {
+        grid-area: text1;
+        background-color: #e0d9d1;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    article h2 {
+        color: #006268;
+        padding-left: 200px;
+        padding-right: 350px;
+        text-align: left;
+        font-weight: normal;
+        font-size: 36px;
+    }
+
+    p{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    #code1 {
+        grid-area: code1;
+        color: #006268;
+        font-family: RedHatMono;
+        font-weight: normal;
+        font-size: 20px;
+        max-width: 512px;
+        align-self: center;
+    }
+
+    #bild1{
+        grid-area: bild1;
+    }
+
+    #section-intro2 {
+        grid-area: text2;
+        background-color: #e0d9d1;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    #code2 {
+        grid-area: code2;
+        color: #006268;
+        font-family: RedHatMono;
+        font-weight: normal;
+        font-size: 20px;
+        max-width: 512px;
+        align-self: center;
+    }
+
+    #bild2{
+        grid-area: bild2;
+    }
+
+    #section-intro3 {
+        grid-area: text3;
+        background-color: #e0d9d1;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    #code3 {
+        grid-area: code3;
+        color: #006268;
+        font-family: RedHatMono;
+        font-weight: normal;
+        font-size: 20px;
+        max-width: 512px;
+        align-self: center;
+    }
+
+    #bild3{
+        grid-area: bild3;
+    }
+
+    
+    #section-intro4 {
+        grid-area: text4;
+        background-color: #e0d9d1;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    footer {
+        background-color: #006268;
+        padding-left: 30px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        grid-area: footer;
+    }
+
+    #logo2 {
+        display: inline-block;
+        font-weight: bold;
+        font-size: xx-large;
+        color: #e0d9d1;
+        text-transform: uppercase;
+    }
+
+    .footer-links {
+        list-style: none;
+        display: flex;
+    }
+
+    .footer-item {
+        display: inline-block;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: white;
+    }
+
